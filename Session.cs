@@ -1900,10 +1900,6 @@ namespace Renci.SshNet
             if (connectionException != null && this._isDisconnecting)
                 return;
 
-            this._exception = exp;
-
-            this._exceptionWaitHandle.Set();
-
             if (this.ErrorOccured != null)
             {
                 this.ErrorOccured(this, new ExceptionEventArgs(exp));
@@ -1913,6 +1909,10 @@ namespace Renci.SshNet
             {
                 this.SendDisconnect(connectionException.DisconnectReason, exp.ToString());
             }
+
+            this._exception = exp;
+
+            this._exceptionWaitHandle.Set();
         }
 
         #region IDisposable Members
