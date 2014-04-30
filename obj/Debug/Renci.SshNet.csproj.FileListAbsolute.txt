@@ -1,0 +1,6 @@
+X:\ssh-net\obj\Debug\Renci.SshNet.csprojResolveAssemblyReference.cache
+X:\ssh-net\bin\Debug\Renci.SshNet.xml
+X:\ssh-net\bin\Debug\Renci.SshNet.dll
+X:\ssh-net\bin\Debug\Renci.SshNet.pdb
+X:\ssh-net\obj\Debug\Renci.SshNet.dll
+X:\ssh-net\obj\Debug\Renci.SshNet.pdb
